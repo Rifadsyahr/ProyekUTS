@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -13,12 +14,12 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="70dp"
             android:layout_marginLeft="30dp"
+            android:layout_marginTop="70dp"
             android:text="Aplikasi Todo"
             android:textAllCaps="false"
             android:textColor="@color/black"
-            android:textSize="24sp"/>
+            android:textSize="24sp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -43,16 +44,16 @@
             android:id="@+id/editTextTextPersonName3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="180dp"
             android:layout_marginLeft="30dp"
+            android:layout_marginTop="180dp"
             android:ems="10"
-            android:inputType="textPersonName"/>
+            android:inputType="textPersonName" />
 
         <Button
             android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="280dp"
+            android:layout_marginLeft="260dp"
             android:layout_marginTop="180dp"
             android:backgroundTint="#000"
             android:text="Tambah"
@@ -74,7 +75,7 @@
             android:layout_width="match_parent"
             android:layout_height="180dp"
             android:orientation="vertical">
-            
+
 
             <ListView
                 android:id="@+id/listview"
@@ -86,7 +87,5 @@
         </LinearLayout>
 
     </RelativeLayout>
-
-
 
 </RelativeLayout>
